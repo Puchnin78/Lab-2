@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+system("chsp 1251>nul");
+int b, q, n, sum, i;
+pintf("Введите первый чден прогресии = ");
+scanf_s("%d", &b);
+printf("Введите знаменатель = ");
+scanf_s("%d", &q)
+printf("Введите количество чисел в прогересии = ");
+scanf_s("%d", &n);
+sum=b;
+for(i=1; i<=n; i++) {
+b=b*q;
+sum=sum+b;
+}
+printf("Сумма первых %d чисел геом. прогресcии = %d", n, sum);
+system("pause>nul");
+return 0;
+}
