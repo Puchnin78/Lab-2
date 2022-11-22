@@ -1,0 +1,23 @@
+
+
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+    system("chsp 1251>nul");
+    int a, b, c, d, p, S;
+    printf("Введите три стороны треугольника \n " );
+    printf("Введите первую сторону = ");
+    scanf("%d", &a);
+    printf("Введите вторую сторону = ");
+    scanf("%d", &b);
+    printf("Введите третью сторону = ");
+    scanf("%d", &c);
+    p=(a+b+c)/2;
+    S=sqrt(p*(p-a)*(p-b)*(p-c));
+    cout << S;
+    
+}
